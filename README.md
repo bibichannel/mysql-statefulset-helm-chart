@@ -6,7 +6,7 @@
 
 ## Deploy release to k8s
 ```
-helm upgrade --install --config --debug --kubeconfig ~/.kube/config --create-namespace --namespace mysql mysql-statefulset ./
+helm upgrade --install --debug --kubeconfig ~/.kube/config --create-namespace --namespace mysql mysql-statefulset ./
 ```
 
 ## Check release
